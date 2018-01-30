@@ -1,6 +1,8 @@
 
 # the-first-commit
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sinchang/the-first-commit.svg)](https://greenkeeper.io/)
+
 [![NPM version](https://img.shields.io/npm/v/the-first-commit.svg?style=flat)](https://npmjs.com/package/the-first-commit) [![NPM downloads](https://img.shields.io/npm/dm/the-first-commit.svg?style=flat)](https://npmjs.com/package/the-first-commit) [![CircleCI](https://circleci.com/gh/sinchang/the-first-commit/tree/master.svg?style=shield)](https://circleci.com/gh/sinchang/the-first-commit/tree/master)  [![codecov](https://codecov.io/gh/sinchang/the-first-commit/branch/master/graph/badge.svg)](https://codecov.io/gh/sinchang/the-first-commit)
 
 ## Install
