@@ -1,0 +1,57 @@
+{
+  "name": "the-first-commit",
+  "version": "0.0.1",
+  "description": "my incredible project",
+  "repository": {
+    "url": "sinchang/the-first-commit",
+    "type": "git"
+  },
+  "main": "dist/the-first-commit.cjs.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test:cov": "jest --coverage && npm run lint",
+    "test": "npm run lint && jest",
+    "lint": "xo",
+    "prepublishOnly": "npm run build",
+    "build": "bili"
+  },
+  "author": "sinchang <sinchangwen@gmail.com>",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "presets": [
+          [
+            "env",
+            {
+              "targets": {
+                "node": "current"
+              }
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "dependencies": {
+    "the-git-commit": "^0.0.2"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.4.0",
+    "bili": "^2.2.3",
+    "eslint-config-rem": "^3.0.0",
+    "jest-cli": "^22.1.4",
+    "xo": "^0.18.0"
+  },
+  "xo": {
+    "extends": "rem",
+    "envs": [
+      "jest"
+    ]
+  }
+}
