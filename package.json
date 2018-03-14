@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "babel-preset-env": "^1.4.0",
-    "bili": "^2.2.3",
+    "bili": "^3.0.5",
     "eslint-config-rem": "^4.0.0",
     "jest-cli": "^22.1.4",
     "xo": "^0.20.0"
